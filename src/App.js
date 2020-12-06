@@ -6,7 +6,7 @@ import { API } from "./backend";
 function App() {
   const [foodName, setFoodName] = useState("");
   console.log("foodName", foodName);
-  const [days, setDays] = useState(0);
+  const [days, setDays] = useState();
   console.log("days", days);
 
   const [foodList, setFoodList] = useState([]);
