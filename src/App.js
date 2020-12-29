@@ -8,6 +8,8 @@ function App() {
   console.log("foodName", foodName);
   const [days, setDays] = useState();
   console.log("days", days);
+  console.log("days", days);
+  console.log("days", days);
 
   const [foodList, setFoodList] = useState([]);
   const [newFoodName, setNewFoodName] = useState("");
